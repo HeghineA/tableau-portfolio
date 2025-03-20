@@ -1,0 +1,8 @@
+# ignore ALL .log files
+*.mp4
+*.pdf
+*.png
+*.jpg
+*.HEIC
+*.mov
+*.webp

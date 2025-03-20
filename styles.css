@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #ffffff;
+}
+
+/* Navigation Bar */
+header nav {
+    text-align: center;
+    background-color: #333;
+    padding: 15px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul li a.active {
+    border-bottom: 2px solid #fff;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Typing Effect */
+.typing-container {
+    display: inline-block;
+    border-right: 2px solid white; /* Cursor effect */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink-cursor 0.8s step-end infinite;
+}
+
+/* Description Text Styling */
+#description {
+    font-size: 30px; /* Change the font size here */
+    line-height: 1.5; /* Adjust line height for readability */
+    margin-top: 20px; /* Space between title and description */
+    max-width: 900px; /* Limit the width of text */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Center the text */
+    /* opacity: 0; Initially hidden */
+    transition: opacity 0.1s ease-out; /* Quick transition for sudden appearance */
+}
+
+/* Animation for Typing Effect Cursor */
+@keyframes blink-cursor {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+
+/* Portfolio Section */
+.portfolio {
+    margin: 20px;
+    padding: 20px;
+    text-align: center; /* Centers the entire content of the portfolio */
+}
+
+/* Portfolio Section Styling */
+.portfolio-section {
+    margin-bottom: 40px;
+}
+
+/* Portfolio Item */
+.portfolio-item {
+    display: inline-block; /* Allows for centering */
+    text-align: center;
+    margin: 20px 0;
+    max-width: 90%; /* Limit width of content */
+}
+
+/* Centering Images and Videos */
+.portfolio-img, .portfolio-video {
+    width: 100%; /* Make images/videos responsive */
+    max-width: 800px; /* Limit max width */
+    margin: 20px auto; /* Center and add margin around */
+    display: block; /* Makes them block elements for centering */
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+/* Margin for Image and Video Text */
+.portfolio-item p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px; /* Optional max-width for text */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Centers text */
+}
+
+/* About Section Styling */
+/* About Section Styling */
+.about-page {
+    position: relative;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.about-page h1 {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about-page p {
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+
+/* Bottom Navigation - Removed from previous version */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
